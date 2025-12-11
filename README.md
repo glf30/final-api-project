@@ -42,7 +42,7 @@ Additionally, if you'd like to use Bootstrap to style your buttons and such
 Before diving into the API aspect of this assignment, first lets add a single story
 to the DOM. This code will be a blueprint that will help later on. 
 
-To do this, use `document.createElement` along with `.appendChild` in your Javascript.
+To do this, use `document.createElement` along with `.append` in your Javascript.
 
 ```javascript
 
@@ -56,8 +56,8 @@ parent.className = 'parent';
 const child = document.createElement('div');
 child.className = 'child';
 
-parent.appendChild(child);
-body.appendChild(parent);
+parent.append(child);
+body.append(parent);
 
 // Result:
 //
