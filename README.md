@@ -20,9 +20,6 @@ on the page
 
 * Adjacent to the story's title, the story's score, number of comments, and author's username should be visible
 
-* Your site should look at least a little nicer than the real Hacker News (Bootstrap!)
-
-
 ## Steps
 
 #### 1. Designing your layout
